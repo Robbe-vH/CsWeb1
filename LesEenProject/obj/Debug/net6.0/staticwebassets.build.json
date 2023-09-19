@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "wkQ5FYwcpi8fRjqqgTpSPHcElrdW5FsHrtXlqzC9r2U=",
+  "Source": "LesEenProject",
+  "BasePath": "_content/LesEenProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LesEenProject/wwwroot",
+      "Source": "LesEenProject",
+      "ContentRoot": "/home/rvanhopp/Documents/PXLTweedeJaar/C#Web/LesEenProject/LesEenProject/wwwroot/",
+      "BasePath": "_content/LesEenProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/rvanhopp/Documents/PXLTweedeJaar/C#Web/LesEenProject/LesEenProject/wwwroot/default.html",
+      "SourceId": "LesEenProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/rvanhopp/Documents/PXLTweedeJaar/C#Web/LesEenProject/LesEenProject/wwwroot/",
+      "BasePath": "_content/LesEenProject",
+      "RelativePath": "default.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/default.html"
+    },
+    {
+      "Identity": "/home/rvanhopp/Documents/PXLTweedeJaar/C#Web/LesEenProject/LesEenProject/wwwroot/test.html",
+      "SourceId": "LesEenProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/rvanhopp/Documents/PXLTweedeJaar/C#Web/LesEenProject/LesEenProject/wwwroot/",
+      "BasePath": "_content/LesEenProject",
+      "RelativePath": "test.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/test.html"
+    }
+  ]
+}

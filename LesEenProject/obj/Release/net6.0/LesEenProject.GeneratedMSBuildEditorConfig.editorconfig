@@ -1,0 +1,29 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LesEenProject
+build_property.RootNamespace = LesEenProject
+build_property.ProjectDir = C:\Users\A\source\repos\C#Web\LesEenProject\LesEenProject\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\A\source\repos\C#Web\LesEenProject\LesEenProject
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/A/source/repos/C\#Web/LesEenProject/LesEenProject/Pages/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/A/source/repos/C\#Web/LesEenProject/LesEenProject/Pages/Robbe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9iYmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/A/source/repos/C\#Web/LesEenProject/LesEenProject/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

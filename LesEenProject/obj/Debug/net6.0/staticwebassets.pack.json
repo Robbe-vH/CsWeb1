@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\A\\source\\repos\\C#Web\\LesEenProject\\LesEenProject\\wwwroot\\default.html",
+      "PackagePath": "staticwebassets\\default.html"
+    },
+    {
+      "Id": "C:\\Users\\A\\source\\repos\\C#Web\\LesEenProject\\LesEenProject\\wwwroot\\test.html",
+      "PackagePath": "staticwebassets\\test.html"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.LesEenProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.LesEenProject.props",
+      "PackagePath": "build\\LesEenProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.LesEenProject.props",
+      "PackagePath": "buildMultiTargeting\\LesEenProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.LesEenProject.props",
+      "PackagePath": "buildTransitive\\LesEenProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

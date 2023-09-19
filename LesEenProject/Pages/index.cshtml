@@ -1,0 +1,39 @@
+﻿@page
+@model LesEenProject.Pages.index
+
+@{
+    var name = string.Empty;
+    if (Request.HasFormContentType)
+    {
+        name = Request.Form["name"];
+    }
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<form method="post">
+    <div>Name: <input name="name"/></div>
+    <br />
+    <div>
+        <input type="submit"/>
+    </div>
+    @Html.AntiForgeryToken()
+</form>
+<div>
+    @if (!string.IsNullOrEmpty(name))
+    {
+        <p> Hello @name</p>
+    }
+</div>
+<a href="#">content</a>
+<div>
+    
+</div>
+</body>
+</html>
