@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var clients = ViewBag.clients;
+    var locations = ViewBag.locations;
+}
+
+<div class="text-center">
+    <h1 class="display-4">The databse hsa been started </h1>
+    <h4>Client records: @clients.Count</h4>
+    <h4>Location records: @locations.Count</h4>
+</div>

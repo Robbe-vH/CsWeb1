@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MVCWebApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    @* <link rel="stylesheet" href="~/MVCWebApp.styles.css" asp-append-version="true"/> *@
+</head>
+<body>
+    <header>
+        <h1>Header Title</h1>
+    </header>
+    <div class="container row m-1 p-1">
+        <div class="border border-primary col-3">
+            <a asp-controller="Home" asp-action="Index">Home</a>
+            <br />
+            <a asp-controller="Test" asp-action="Index">Test</a>
+            <br />
+            <a asp-controller="Test" asp-action="TestViewBag">Bag</a>
+            <br />            
+            <a asp-controller="Test" asp-action="Formulier">Formulier</a>
+            <br />
+        </div>
+
+        <main role="main" class="pb-3  border border-primary col-9">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        Footer - @DateTime.Now.Date.ToShortDateString()
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", false)
+</body>
+</html>
