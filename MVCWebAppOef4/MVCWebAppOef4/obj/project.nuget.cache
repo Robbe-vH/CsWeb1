@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9KDIsVDyIN2R/FFhzsZZi/TWRCNBy9hN+H0aEjNXjRmS7QjERm0HrLCdVMr/upY9At6OlMebVgBlwb4zN4xpqA==",
+  "success": true,
+  "projectFilePath": "/home/robbevh/RiderProjects/CsWeb1/MVCWebAppOef4/MVCWebAppOef4/MVCWebAppOef4.csproj",
+  "expectedPackageFiles": [
+    "/home/robbevh/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.22/microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}
