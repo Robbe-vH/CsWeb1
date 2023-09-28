@@ -1,0 +1,21 @@
+﻿@model IEnumerable<ClientLocation>
+
+<h1>Client Location</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ClientName</th>
+            <th scope="col">City</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (ClientLocation cl in Model)
+        {
+            <tr>
+                <td>@cl.ClientName</td>
+                <td>@cl.City</td>
+            </tr>
+        }
+    </tbody>
+</table>

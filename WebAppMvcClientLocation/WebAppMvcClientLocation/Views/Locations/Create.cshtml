@@ -1,0 +1,22 @@
+﻿@model Location
+
+<h1>Create</h1>
+<h3>Client</h3>
+<hr />
+<form asp-action="Create" methods="post">
+    <br />
+    <div class="form-group">
+        <label asp-for="PostCode" class="col-3">PostCode</label>
+        <input asp-for="PostCode" class="col-5" />
+    </div>
+    <br />
+    <div class="form-group">
+        <label asp-for="City" class="col-3">City</label>
+        <input asp-for="City" class="col-5" />
+    </div>
+    <br />
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+    <a asp-controller="Clients" asp-action="Index">Back to list</a>
+</form>
