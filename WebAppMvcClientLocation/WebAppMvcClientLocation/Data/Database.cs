@@ -22,5 +22,39 @@ namespace WebAppMvcClientLocation.Data
             };
 
         }
+
+        public static InsertResult AddClient(Client client)
+        {
+            var result = new InsertResult();
+            try
+            {
+                Clients.Add(client);
+                result.Succeeded = true;
+            }
+            catch (Exception e)
+            {
+                result.Errors.Add(e.Message);
+                result.Succeeded = false;
+            }
+
+            return result;
+        }
+
+        public static InsertResult AddLocation(Location location)
+        {
+            var result = new InsertResult();
+            try
+            {
+                Locations.Add(location);
+                result.Succeeded = true;
+            }
+            catch (Exception e)
+            {
+                result.Errors.Add(e.Message);
+                result.Succeeded = false;
+            }
+
+            return result;
+        }
     }
 }

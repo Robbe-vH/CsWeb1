@@ -1,0 +1,31 @@
+﻿@model Client
+
+<h1>Clients</h1>
+<a asp-controller="Clients" asp-action="Create">Create New</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ClientId</th>
+            <th scope="col">LocationId</th>
+            <th scope="col">ClientName</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Client client in WebAppMvcClientLocation.Data.Database.Clients)
+        {
+            <tr>
+                <td>@client.ClientId</td>
+                <td>@client.LocationId</td>
+                <td>@client.ClientName</td>
+                <td>
+                    <a asp-controller="Clients" asp-action="Edit">Edit</a> |
+                    <a asp-controller="Clients" asp-action="Details">Details</a> |
+                    <a asp-controller="Clients" asp-action="Delete">Delete</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
