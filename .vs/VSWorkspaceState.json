@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\LesEenProject",
-    "\\LesEenProject\\Pages"
+    "\\MVCWebApp",
+    "\\MVCWebApp\\MVCWebApp",
+    "\\MVCWebApp\\MVCWebApp\\Controllers",
+    "\\WebAppMvcClientLocation",
+    "\\WebAppMvcClientLocation\\WebAppMvcClientLocation"
   ],
-  "SelectedNode": "\\LesEenProject\\Pages",
+  "SelectedNode": "\\MVCWebApp\\MVCWebApp\\Controllers\\TestController.cs",
   "PreviewInSolutionExplorer": false
 }

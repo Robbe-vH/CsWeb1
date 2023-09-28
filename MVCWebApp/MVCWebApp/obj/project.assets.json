@@ -9665,11 +9665,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\robbe\\RiderProjects\\CsWeb1\\MVCWebApp\\MVCWebApp\\MVCWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCWebApp\\MVCWebApp\\MVCWebApp.csproj",
       "projectName": "MVCWebApp",
-      "projectPath": "C:\\Users\\robbe\\RiderProjects\\CsWeb1\\MVCWebApp\\MVCWebApp\\MVCWebApp.csproj",
+      "projectPath": "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCWebApp\\MVCWebApp\\MVCWebApp.csproj",
       "packagesPath": "C:\\Users\\robbe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\robbe\\RiderProjects\\CsWeb1\\MVCWebApp\\MVCWebApp\\obj\\",
+      "outputPath": "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCWebApp\\MVCWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

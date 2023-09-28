@@ -1,0 +1,41 @@
+﻿@model Gast
+@{
+    var lst = new List<SelectListItem>
+    {
+        new SelectListItem { Text = "", Value = ""},
+        new SelectListItem { Text = "Ja, ik ben aanweizg", Value = "true"},
+        new SelectListItem { Text = "Nee, ik ben er niet", Value = "false"}
+    };
+}
+@* <div>
+    @Html.ValidationSummary()
+    Ofwel dit, ofwel de div met asp-validation-summary
+</div> *@
+<br />
+<form asp-action="Reservatie" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div>
+        <label asp-for="Naam">Naam</label>
+        <input asp-for="Naam" />
+        @* <span asp-validation-for="Naam" /> *@
+    </div>
+    <div>
+        <label asp-for="Email">Email</label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email" class="text-danger" />
+    </div>
+    <div>
+        <label asp-for="Telefoon">Telefoon</label>
+        <input asp-for="Telefoon" />
+        @* <span asp-validation-for="Telefoon" /> *@
+    </div>
+    <div>
+        <label asp-for="Aanwezig">Aanwezig</label>
+        <select asp-for="Aanwezig" asp-items="@lst">
+        </select>
+        <span asp-validation-for="Aanwezig" />
+    </div>
+    <div>
+        <input type="submit" value="Submit" />
+    </div>
+</form>
