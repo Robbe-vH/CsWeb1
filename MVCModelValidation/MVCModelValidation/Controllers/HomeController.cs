@@ -28,5 +28,23 @@ namespace MVCModelValidation.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        [HttpGet]
+        public IActionResult TestValidation()
+        {
+            TestValidation tv = new TestValidation();
+            return View(tv);
+        }
+
+        [HttpPost]
+        public IActionResult TestValidation(TestValidation tv)
+        {
+            if (ModelState.IsValid)
+            {
+                return View("Index");
+            }
+            //return RedirectToAction("TestValidation");
+            return View(tv);
+        }
     }
 }
