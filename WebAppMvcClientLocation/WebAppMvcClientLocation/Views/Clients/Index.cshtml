@@ -1,4 +1,4 @@
-﻿@model Client
+﻿@model IEnumerable<Client>
 
 <h1>Clients</h1>
 <a asp-controller="Clients" asp-action="Create">Create New</a>
@@ -13,7 +13,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (Client client in WebAppMvcClientLocation.Data.Database.Clients)
+        @foreach (Client client in Model)
         {
             <tr>
                 <td>@client.ClientId</td>

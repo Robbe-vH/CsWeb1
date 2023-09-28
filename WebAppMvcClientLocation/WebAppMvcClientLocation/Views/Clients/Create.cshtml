@@ -1,0 +1,26 @@
+﻿@model Client
+
+<h1>Create</h1>
+<h3>Client</h3>
+<hr />
+<form asp-action="Create" methods="post">
+    <div class="form-group">
+        <label asp-for="ClientId" class="col-3">Client ID </label>
+        <input asp-for="ClientId" class="col-5" />
+    </div>
+    <br />
+    <div class="form-group">
+        <label asp-for="LocationId" class="col-3">Location ID </label>
+        <input asp-for="LocationId" class="col-5" />
+    </div>
+    <br />
+    <div class="form-group">
+        <label asp-for="ClientName" class="col-3">Client Name </label>
+        <input asp-for="ClientName" class="col-5" />
+    </div>
+    <br />
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+    <a asp-controller="Clients" asp-action="Index">Back to list</a>
+</form>

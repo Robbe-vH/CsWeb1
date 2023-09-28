@@ -8,13 +8,21 @@ namespace WebAppMvcClientLocation.Controllers
     {
         public IActionResult Index()
         {
+            return View(Database.Clients);
+        }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
             return View();
         }
 
-        public IActionResult Create(Client client)
+        [HttpPost]
+        public IActionResult Create(Client c)
         {
-            Database.AddClient(client);
+            if (ModelState.IsValid) Database.AddClient(new Client(c.ClientId, c.LocationId, c.ClientName));
             return RedirectToAction("Index");
         }
+
     }
 }
