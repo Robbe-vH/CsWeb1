@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="10c45962-6006-4d7e-9cfd-b723d923948b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.vs/CsWeb1/FileContentIndex/becab273-30ff-4856-a1c0-3595a32f1cab.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CsWeb1/FileContentIndex/db185859-cb78-4d7b-a5f3-534f5aa52e70.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CsWeb1/v17/.wsuo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CsWeb1/v17/.wsuo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CsWeb1/v17/workspaceFileList.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CsWeb1/v17/workspaceFileList.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAppMvcClientLocation/.vs/WebAppMvcClientLocation/FileContentIndex/017ec5a7-9bd3-4754-9adf-4797b0e654c2.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAppMvcClientLocation/.vs/WebAppMvcClientLocation/FileContentIndex/37f95d1e-d5ec-466c-be4d-fc5dc568e7ce.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAppMvcClientLocation/.vs/WebAppMvcClientLocation/FileContentIndex/d5355fe6-cc68-4458-8703-e97ff8cec23e.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAppMvcClientLocation/.vs/WebAppMvcClientLocation/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/WebAppMvcClientLocation/.vs/WebAppMvcClientLocation/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAppMvcClientLocation/.vs/WebAppMvcClientLocation/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/WebAppMvcClientLocation/.vs/WebAppMvcClientLocation/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAppMvcClientLocation/WebAppMvcClientLocation/Controllers/ClientsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAppMvcClientLocation/WebAppMvcClientLocation/Controllers/ClientsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAppMvcClientLocation/WebAppMvcClientLocation/Models/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAppMvcClientLocation/WebAppMvcClientLocation/Models/Client.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAppMvcClientLocation/WebAppMvcClientLocation/Views/Clients/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebAppMvcClientLocation/WebAppMvcClientLocation/Views/Clients/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAppMvcClientLocation/WebAppMvcClientLocation/bin/Debug/net6.0/WebAppMvcClientLocation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAppMvcClientLocation/WebAppMvcClientLocation/bin/Debug/net6.0/WebAppMvcClientLocation.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAppMvcClientLocation/WebAppMvcClientLocation/bin/Debug/net6.0/WebAppMvcClientLocation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAppMvcClientLocation/WebAppMvcClientLocation/bin/Debug/net6.0/WebAppMvcClientLocation.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAppMvcClientLocation/WebAppMvcClientLocation/obj/Debug/net6.0/WebAppMvcClientLocation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAppMvcClientLocation/WebAppMvcClientLocation/obj/Debug/net6.0/WebAppMvcClientLocation.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAppMvcClientLocation/WebAppMvcClientLocation/obj/Debug/net6.0/WebAppMvcClientLocation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAppMvcClientLocation/WebAppMvcClientLocation/obj/Debug/net6.0/WebAppMvcClientLocation.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAppMvcClientLocation/WebAppMvcClientLocation/obj/Debug/net6.0/ref/WebAppMvcClientLocation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAppMvcClientLocation/WebAppMvcClientLocation/obj/Debug/net6.0/ref/WebAppMvcClientLocation.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAppMvcClientLocation/WebAppMvcClientLocation/obj/Debug/net6.0/refint/WebAppMvcClientLocation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAppMvcClientLocation/WebAppMvcClientLocation/obj/Debug/net6.0/refint/WebAppMvcClientLocation.dll" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2WFNnbHtx6jZz88DbPAxOBeDRtF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/robbe/source/repos/Robbe-vH/CsWeb1",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver.localdb"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+</project>

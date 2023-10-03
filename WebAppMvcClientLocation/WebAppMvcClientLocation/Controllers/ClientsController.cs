@@ -11,17 +11,50 @@ namespace WebAppMvcClientLocation.Controllers
             return View(Database.Clients);
         }
 
-        public IActionResult Create()
+        [HttpGet]
+        public IActionResult Create() 
         {
-            if (Request.Method == "POST")
-            {
-                int clientId = Convert.ToInt32(Request.Form["ClientId"]);
-                int locationId = Convert.ToInt32(Request.Form["LocationId"]);
+            return View();
+        }
 
-                if (ModelState.IsValid) Database.AddClient(new Client(clientId, locationId, Request.Form["ClientName"]));
+        [HttpPost]
+        public IActionResult Create(Client client)
+        {
+            //if (Request.Method == "POST")
+            //{
+            //    Client client = new Client(
+            //        Convert.ToInt32(Request.Form["ClientId"]),
+            //        Convert.ToInt32(Request.Form["LocationId"]),
+            //        Request.Form["clientname"]);
+
+            //    if (ModelState.IsValid)
+            //    {
+            //        if (Database.Clients.Where(c => c.ClientId == client.ClientId).Count() != 0 || client.ClientId < 1)
+            //        {
+            //            ModelState.AddModelError("", "ClientId bestaat al of kleiner dan 1");
+            //            return View("Index");
+            //        }
+            //        else
+            //        {
+            //            Database.AddClient(client);
+            //        }
+            //    }
+            //    return RedirectToAction("Index");
+            //}
+            //else return View();
+
+            if (ModelState.IsValid)
+            {
+                // check ongeldig clientId
+                if (Database.Clients.Where(c => c.ClientId == client.ClientId).Count() != 0 || client.ClientId < 1)
+                {
+                    ModelState.AddModelError("", "ClientId bestaat al of kleiner dan 1");
+                    return View("Index", client);
+                }
+                Database.AddClient(client);
                 return RedirectToAction("Index");
             }
-            else return View();
+            return View("Index", client);
         }
 
     }

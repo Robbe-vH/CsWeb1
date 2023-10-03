@@ -1,14 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MVCPartyInvites",
     "\\MVCPartyInvites\\MVCPartyInvites",
     "\\MVCPartyInvites\\MVCPartyInvites\\Views",
-    "\\MVCPartyInvites\\MVCPartyInvites\\Views\\Shared",
-    "\\MVCWebApp\\MVCWebApp",
-    "\\MVCWebApp\\MVCWebApp\\Controllers",
-    "\\WebAppMvcClientLocation\\WebAppMvcClientLocation"
+    "\\MVCPartyInvites\\MVCPartyInvites\\Views\\Shared"
   ],
-  "SelectedNode": "\\MVCPartyInvites\\MVCPartyInvites\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\MVCPartyInvites",
   "PreviewInSolutionExplorer": false
 }

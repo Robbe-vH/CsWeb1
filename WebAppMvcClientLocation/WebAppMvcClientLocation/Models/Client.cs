@@ -6,7 +6,7 @@ namespace WebAppMvcClientLocation.Models
     {
         public int? ClientId { get; set; }
         public int? LocationId { get; set; }
-        [Required]
+        [Required(ErrorMessage ="Client Name is verplicht")]
         public string? ClientName { get; set; }
 
         public Client(int clientId, int locationId, string clientName)
