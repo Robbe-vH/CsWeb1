@@ -9,21 +9,21 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LesEenProject
 build_property.RootNamespace = LesEenProject
-build_property.ProjectDir = C:\Users\robbe\RiderProjects\CsWeb1\LesEenProject\
+build_property.ProjectDir = C:\Users\robbe\Source\Repos\Robbe-vH\CsWeb1\LesEenProject\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\robbe\RiderProjects\CsWeb1\LesEenProject
+build_property.MSBuildProjectDirectory = C:\Users\robbe\Source\Repos\Robbe-vH\CsWeb1\LesEenProject
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/robbe/RiderProjects/CsWeb1/LesEenProject/Pages/index.cshtml]
+[C:/Users/robbe/Source/Repos/Robbe-vH/CsWeb1/LesEenProject/Pages/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robbe/RiderProjects/CsWeb1/LesEenProject/Pages/Robbe.cshtml]
+[C:/Users/robbe/Source/Repos/Robbe-vH/CsWeb1/LesEenProject/Pages/Robbe.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9iYmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/robbe/RiderProjects/CsWeb1/LesEenProject/Pages/_ViewImports.cshtml]
+[C:/Users/robbe/Source/Repos/Robbe-vH/CsWeb1/LesEenProject/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

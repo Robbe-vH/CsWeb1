@@ -16,12 +16,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\robbe\Source\Repos\Robbe-vH\CsWeb1\WebAppMvcClientLocation\WebAppMvcClientLocation
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/robbe/Source/Repos/Robbe-vH/CsWeb1/WebAppMvcClientLocation/WebAppMvcClientLocation/Views/ClientLocation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50TG9jYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/robbe/Source/Repos/Robbe-vH/CsWeb1/WebAppMvcClientLocation/WebAppMvcClientLocation/Views/Clients/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/robbe/Source/Repos/Robbe-vH/CsWeb1/WebAppMvcClientLocation/WebAppMvcClientLocation/Views/Clients/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/robbe/Source/Repos/Robbe-vH/CsWeb1/WebAppMvcClientLocation/WebAppMvcClientLocation/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/robbe/Source/Repos/Robbe-vH/CsWeb1/WebAppMvcClientLocation/WebAppMvcClientLocation/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/robbe/Source/Repos/Robbe-vH/CsWeb1/WebAppMvcClientLocation/WebAppMvcClientLocation/Views/Locations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/robbe/Source/Repos/Robbe-vH/CsWeb1/WebAppMvcClientLocation/WebAppMvcClientLocation/Views/Locations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/robbe/Source/Repos/Robbe-vH/CsWeb1/WebAppMvcClientLocation/WebAppMvcClientLocation/Views/Shared/Error.cshtml]

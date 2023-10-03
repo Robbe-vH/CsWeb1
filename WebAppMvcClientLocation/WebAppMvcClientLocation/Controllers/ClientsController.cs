@@ -11,17 +11,17 @@ namespace WebAppMvcClientLocation.Controllers
             return View(Database.Clients);
         }
 
-        [HttpGet]
         public IActionResult Create()
         {
-            return View();
-        }
+            if (Request.Method == "POST")
+            {
+                int clientId = Convert.ToInt32(Request.Form["ClientId"]);
+                int locationId = Convert.ToInt32(Request.Form["LocationId"]);
 
-        [HttpPost]
-        public IActionResult Create(Client c)
-        {
-            if (ModelState.IsValid) Database.AddClient(new Client(c.ClientId, c.LocationId, c.ClientName));
-            return RedirectToAction("Index");
+                if (ModelState.IsValid) Database.AddClient(new Client(clientId, locationId, Request.Form["ClientName"]));
+                return RedirectToAction("Index");
+            }
+            else return View();
         }
 
     }

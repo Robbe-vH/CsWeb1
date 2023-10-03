@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\robbe\\source\\repos\\Robbe-vH\\CsWeb1\\MVCPartyInvites\\MVCPartyInvites\\MVCPartyInvites.csproj": {}
+    "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCPartyInvites\\MVCPartyInvites\\MVCPartyInvites.csproj": {}
   },
   "projects": {
-    "C:\\Users\\robbe\\source\\repos\\Robbe-vH\\CsWeb1\\MVCPartyInvites\\MVCPartyInvites\\MVCPartyInvites.csproj": {
+    "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCPartyInvites\\MVCPartyInvites\\MVCPartyInvites.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\robbe\\source\\repos\\Robbe-vH\\CsWeb1\\MVCPartyInvites\\MVCPartyInvites\\MVCPartyInvites.csproj",
+        "projectUniqueName": "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCPartyInvites\\MVCPartyInvites\\MVCPartyInvites.csproj",
         "projectName": "MVCPartyInvites",
-        "projectPath": "C:\\Users\\robbe\\source\\repos\\Robbe-vH\\CsWeb1\\MVCPartyInvites\\MVCPartyInvites\\MVCPartyInvites.csproj",
+        "projectPath": "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCPartyInvites\\MVCPartyInvites\\MVCPartyInvites.csproj",
         "packagesPath": "C:\\Users\\robbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\robbe\\source\\repos\\Robbe-vH\\CsWeb1\\MVCPartyInvites\\MVCPartyInvites\\obj\\",
+        "outputPath": "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCPartyInvites\\MVCPartyInvites\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

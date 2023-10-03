@@ -1,5 +1,9 @@
 ﻿@model Client
 
+@{
+    var locations = WebAppMvcClientLocation.Data.Database.Locations;
+}
+
 <h1>Create</h1>
 <h3>Client</h3>
 <hr />
@@ -10,8 +14,13 @@
     </div>
     <br />
     <div class="form-group">
-        <label asp-for="LocationId" class="col-3">Location ID </label>
-        <input asp-for="LocationId" class="col-5" />
+        <label asp-for="LocationId" class="col-3">Location </label>
+        <select asp-for="LocationId" class="col-5">
+            <option value="0">Kies een locatie</option>
+            @foreach (Location l in locations){
+                <option value="@l.LocationId">@l.City</option> 
+            }
+            </select>
     </div>
     <br />
     <div class="form-group">

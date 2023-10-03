@@ -11,23 +11,23 @@ namespace WebAppMvcClientLocation.Controllers
             return View(Database.Locations);
         }
 
-        [HttpGet]
         public IActionResult Create()
         {
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult Create(Location location)
-        {
-            location.LocationId = Database.Locations.Count;
-            if (ModelState.IsValid)
+            if (Request.Method == "POST")
             {
+                var location = new Location(Database.Locations.Count + 1, Request.Form["postcode"], Request.Form["city"]);
+                if (ModelState.IsValid)
+                {
 
-                Database.AddLocation(location);
+                    Database.AddLocation(location);
+                }
+
+                return RedirectToAction("Index");
             }
-
-            return RedirectToAction("Index");
+            else
+            {
+                return View();
+            }
         }
     }
 }
