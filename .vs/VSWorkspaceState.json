@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MVCPartyInvites\\MVCPartyInvites",
-    "\\MVCPartyInvites\\MVCPartyInvites\\Views",
-    "\\MVCPartyInvites\\MVCPartyInvites\\Views\\Shared"
+    "\\MVCFifa2023",
+    "\\MVCFifa2023\\MVCFifa2023",
+    "\\MVCFifa2023\\MVCFifa2023\\Controllers"
   ],
-  "SelectedNode": "\\MVCPartyInvites",
+  "SelectedNode": "\\MVCFifa2023\\MVCFifa2023\\Controllers\\PlayerController.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\robbe\\source\\repos\\Robbe-vH\\CsWeb1\\MVCFifa2023\\MVCFifa2023\\MVCFifa2023.csproj": {}
+    "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCFifa2023\\MVCFifa2023\\MVCFifa2023.csproj": {}
   },
   "projects": {
-    "C:\\Users\\robbe\\source\\repos\\Robbe-vH\\CsWeb1\\MVCFifa2023\\MVCFifa2023\\MVCFifa2023.csproj": {
+    "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCFifa2023\\MVCFifa2023\\MVCFifa2023.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\robbe\\source\\repos\\Robbe-vH\\CsWeb1\\MVCFifa2023\\MVCFifa2023\\MVCFifa2023.csproj",
+        "projectUniqueName": "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCFifa2023\\MVCFifa2023\\MVCFifa2023.csproj",
         "projectName": "MVCFifa2023",
-        "projectPath": "C:\\Users\\robbe\\source\\repos\\Robbe-vH\\CsWeb1\\MVCFifa2023\\MVCFifa2023\\MVCFifa2023.csproj",
+        "projectPath": "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCFifa2023\\MVCFifa2023\\MVCFifa2023.csproj",
         "packagesPath": "C:\\Users\\robbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\robbe\\source\\repos\\Robbe-vH\\CsWeb1\\MVCFifa2023\\MVCFifa2023\\obj\\",
+        "outputPath": "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCFifa2023\\MVCFifa2023\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

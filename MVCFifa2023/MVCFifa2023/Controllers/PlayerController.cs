@@ -31,14 +31,6 @@ namespace MVCFifa2023.Controllers
             return View(player);
         }
 
-        //public IActionResult Edit(int id)
-        //{
-        //    if (player == null)
-        //    {
-        //        _context
-        //        return View(player);
-        //    }
-        //}
 
         [HttpGet]
         public IActionResult Delete(int id)
@@ -48,16 +40,33 @@ namespace MVCFifa2023.Controllers
         }
 
         [HttpPost]
-        public IActionResult Delete(Player player)
+        public IActionResult DeletePost(Player player)
         {
-            if (player != null) RemovePlayer(player);
-            return View();
+            int id = Convert.ToInt32(Request.Form["PlayerId"]);
+            var result = _context.Players
+                .Where(p => p.PlayerId == id)
+                .FirstOrDefault();
+            RemovePlayer(result);
+
+            return RedirectToAction("Index");
         }
 
         [HttpGet]
         public IActionResult Edit(int id)
         {
+            var player = _context.Players.Find(id);
+            return View(player);
+        }
 
+        [HttpPost]
+        public IActionResult Edit(Player player)
+        {
+            if (ModelState.IsValid)
+            {
+                UpdatePlayer(player);
+                return RedirectToAction("Index");
+            }
+            return View(player);
         }
 
 
@@ -78,9 +87,15 @@ namespace MVCFifa2023.Controllers
             _context.SaveChanges();
         }
 
-        private void RemovePlayer(Player player)
+        private void RemovePlayer(Player? player)
         {
             _context.Players.Remove(player);
+            _context.SaveChanges();
+        }
+
+        private void UpdatePlayer(Player player)
+        {
+            _context.Players.Update(player);
             _context.SaveChanges();
         }
     }
