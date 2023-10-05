@@ -24,6 +24,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/robbe/source/repos/Robbe-vH/CsWeb1/WebAppMVCCliebtLocationEFCore/WebAppMVCCliebtLocationEFCore/Views/Client/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/robbe/source/repos/Robbe-vH/CsWeb1/WebAppMVCCliebtLocationEFCore/WebAppMVCCliebtLocationEFCore/Views/Client/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/robbe/source/repos/Robbe-vH/CsWeb1/WebAppMVCCliebtLocationEFCore/WebAppMVCCliebtLocationEFCore/Views/Client/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/robbe/source/repos/Robbe-vH/CsWeb1/WebAppMVCCliebtLocationEFCore/WebAppMVCCliebtLocationEFCore/Views/Client/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +50,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/robbe/source/repos/Robbe-vH/CsWeb1/WebAppMVCCliebtLocationEFCore/WebAppMVCCliebtLocationEFCore/Views/Location/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/robbe/source/repos/Robbe-vH/CsWeb1/WebAppMVCCliebtLocationEFCore/WebAppMVCCliebtLocationEFCore/Views/Location/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/robbe/source/repos/Robbe-vH/CsWeb1/WebAppMVCCliebtLocationEFCore/WebAppMVCCliebtLocationEFCore/Views/Location/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/robbe/source/repos/Robbe-vH/CsWeb1/WebAppMVCCliebtLocationEFCore/WebAppMVCCliebtLocationEFCore/Views/Location/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/robbe/source/repos/Robbe-vH/CsWeb1/WebAppMVCCliebtLocationEFCore/WebAppMVCCliebtLocationEFCore/Views/Location/Index.cshtml]

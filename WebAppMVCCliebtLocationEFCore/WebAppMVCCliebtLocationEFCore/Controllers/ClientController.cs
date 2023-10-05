@@ -37,6 +37,47 @@ namespace WebAppMVCCliebtLocationEFCore.Controllers
             return View(client);
         }
 
+        public IActionResult Details(int id)
+        {
+            var client = _context.Clients.Find(id);
+            return View(client);
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var client = _context.Clients.Find(id);
+            return View(client);
+        }
+
+        [HttpPost]
+        public IActionResult Delete(Client client)
+        {
+            _context.Clients.Remove(client);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+
+        }
+
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            var client = _context.Clients.Find(id);
+            return View(client);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Client client)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Clients.Update(client);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(client);
+        }
+
 
     }
 }
