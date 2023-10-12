@@ -5,9 +5,9 @@ using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 var sb = new StringBuilder();
 sb.Append("Server=(localdb)\\MSSQLLocalDB;");
-sb.Append("Database=fifa2023");
-sb.Append("Trusted_Connection=true");
-sb.Append("MultipleActiveResultSets=true");
+sb.Append("Database=fifa2023;");
+sb.Append("Trusted_Connection=true;");
+sb.Append("MultipleActiveResultSets=true;");
 
 var connString = sb.ToString();
 

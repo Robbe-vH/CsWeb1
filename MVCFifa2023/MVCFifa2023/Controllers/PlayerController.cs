@@ -1,14 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MVCFifa2023.Data;
 using MVCFifa2023.Models;
+using System.IO;
 
 namespace MVCFifa2023.Controllers
 {
     public class PlayerController : Controller
     {
-        ApplicationDbContext _context;
-        public PlayerController(ApplicationDbContext context)
+        private ApplicationDbContext _context;
+        private IWebHostEnvironment _enviroment;
+
+        public PlayerController(ApplicationDbContext context, IWebHostEnvironment environment)
         {
+            _enviroment = environment;
             _context = context;
             _context.Database.EnsureCreated();
         }
@@ -28,9 +32,17 @@ namespace MVCFifa2023.Controllers
         public IActionResult Details(int id)
         {
             var player = _context.Players.Find(id);
+            bool fileExists = false;
+            if (player.ImageLink != null)
+            {
+                var path = _enviroment.WebRootPath;
+                var file = Path.Combine($"{path}\\images", player.ImageLink);
+                fileExists = System.IO.File.Exists(file);
+            }
+
+            ViewBag.FileExists = fileExists;
             return View(player);
         }
-
 
         [HttpGet]
         public IActionResult Delete(int id)
@@ -68,7 +80,6 @@ namespace MVCFifa2023.Controllers
             }
             return View(player);
         }
-
 
         [HttpPost]
         public IActionResult Create(Player player)

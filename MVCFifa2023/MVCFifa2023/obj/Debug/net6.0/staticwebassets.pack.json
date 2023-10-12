@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\images\\fifa_header.jpg"
     },
     {
+      "Id": "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCFifa2023\\MVCFifa2023\\wwwroot\\images\\test.jpg",
+      "PackagePath": "staticwebassets\\images\\test.jpg"
+    },
+    {
       "Id": "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCFifa2023\\MVCFifa2023\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

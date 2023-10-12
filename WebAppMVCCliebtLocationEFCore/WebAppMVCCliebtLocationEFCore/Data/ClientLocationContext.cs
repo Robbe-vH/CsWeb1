@@ -10,6 +10,7 @@ namespace WebAppMVCCliebtLocationEFCore.Data
         }
         public DbSet<Location>? Locations { get; set; }
         public DbSet<Client>? Clients { get; set; }
+        public DbSet<WebAppMVCCliebtLocationEFCore.Models.Product>? Product { get; set; }
 
     }
 }

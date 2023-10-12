@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "05mEcqRNWlALoNaAgkoq8eJH6dTenouOjM6nCcE2Oc8=",
+  "Hash": "wCxLbyWvnYI4bKhZJHYViHBG/aR6f6tVDI40h1M8PGs=",
   "Source": "MVCFifa2023",
   "BasePath": "_content/MVCFifa2023",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\fifa_header.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCFifa2023\\MVCFifa2023\\wwwroot\\images\\test.jpg",
+      "SourceId": "MVCFifa2023",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCFifa2023\\MVCFifa2023\\wwwroot\\",
+      "BasePath": "_content/MVCFifa2023",
+      "RelativePath": "images/test.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\test.jpg"
     },
     {
       "Identity": "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCFifa2023\\MVCFifa2023\\wwwroot\\js\\site.js",

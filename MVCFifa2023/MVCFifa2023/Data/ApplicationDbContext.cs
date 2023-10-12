@@ -8,6 +8,9 @@ namespace MVCFifa2023.Data
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
         }
+
         public DbSet<Player> Players { get; set; }
+        public DbSet<Team> Teams { get; set; }
+        public DbSet<MVCFifa2023.Models.TeamPlayer>? TeamPlayer { get; set; }
     }
 }
