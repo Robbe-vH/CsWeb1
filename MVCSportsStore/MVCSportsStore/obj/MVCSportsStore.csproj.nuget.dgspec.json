@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\robbe\\source\\repos\\Robbe-vH\\CsWeb1\\MVCSportsStore\\MVCSportsStore\\MVCSportsStore.csproj": {}
+    "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCSportsStore\\MVCSportsStore\\MVCSportsStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\robbe\\source\\repos\\Robbe-vH\\CsWeb1\\MVCSportsStore\\MVCSportsStore\\MVCSportsStore.csproj": {
+    "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCSportsStore\\MVCSportsStore\\MVCSportsStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\robbe\\source\\repos\\Robbe-vH\\CsWeb1\\MVCSportsStore\\MVCSportsStore\\MVCSportsStore.csproj",
+        "projectUniqueName": "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCSportsStore\\MVCSportsStore\\MVCSportsStore.csproj",
         "projectName": "MVCSportsStore",
-        "projectPath": "C:\\Users\\robbe\\source\\repos\\Robbe-vH\\CsWeb1\\MVCSportsStore\\MVCSportsStore\\MVCSportsStore.csproj",
+        "projectPath": "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCSportsStore\\MVCSportsStore\\MVCSportsStore.csproj",
         "packagesPath": "C:\\Users\\robbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\robbe\\source\\repos\\Robbe-vH\\CsWeb1\\MVCSportsStore\\MVCSportsStore\\obj\\",
+        "outputPath": "C:\\Users\\robbe\\Source\\Repos\\Robbe-vH\\CsWeb1\\MVCSportsStore\\MVCSportsStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -46,6 +46,10 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.23, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.23, )"
             },

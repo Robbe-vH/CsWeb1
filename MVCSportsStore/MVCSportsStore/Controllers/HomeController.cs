@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MVCSportsStore.Data;
 using MVCSportsStore.Models;
+using MVCSportsStore.ViewModels;
 using System.Diagnostics;
 
 namespace MVCSportsStore.Controllers
@@ -9,16 +10,18 @@ namespace MVCSportsStore.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private StoreDbContext _context;
+        private ProductRepository _repo;
 
         public HomeController(ILogger<HomeController> logger, StoreDbContext context)
         {
             _logger = logger;
             _context = context;
+            _repo = new ProductRepository(_context);
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int id = 1)
         {
-            return View(_context.Products);
+            return View(_repo.GetProductModel(id));
         }
 
         public IActionResult Privacy()

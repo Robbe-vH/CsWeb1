@@ -1,7 +1,8 @@
-﻿@model IEnumerable<Product>
+﻿@model MVCSportsStore.ViewModels.ProductModel
 
 <div>
-    @foreach (var p in Model)
+    <a class="btn border border-secondary m-1" asp-controller="Product" asp-action="Create">Create new Product</a>
+    @foreach (var p in Model.Products)
     {
         <div>
             <h3>@p.Name</h3>
@@ -9,4 +10,13 @@
             <h4>@p.ProductPrice.ToString("c")</h4>
         </div>
     }
+
+    <br />
+    <div class="col text-center">
+        @for (int i = 1; i <= Model.PagingInfo.TotalPages; i++)
+        {
+            <a class="btn border border-secondary m-1" asp-controller="Home" asp-action="Index" asp-route-id="@i">@i</a>
+        }
+    </div>
+
 </div>
