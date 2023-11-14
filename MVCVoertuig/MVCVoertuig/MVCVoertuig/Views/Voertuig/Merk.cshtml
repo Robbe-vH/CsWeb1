@@ -1,0 +1,19 @@
+﻿@model IEnumerable<MVCVoertuig.Models.Voertuig>
+
+@{
+    ViewData["Title"] = "Index";
+    var merk = ViewBag.Merk;
+}
+
+<h1>Voertuigen - @merk</h1>
+<br />
+<car-info Merk="@merk"></car-info>
+<br />
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<br />
+@foreach(var voertuig in Model)
+{
+    <partial name="VoertuigCard" model="voertuig" />
+}

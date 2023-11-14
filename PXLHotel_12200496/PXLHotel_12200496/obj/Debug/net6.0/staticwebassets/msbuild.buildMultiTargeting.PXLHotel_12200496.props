@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PXLHotel_12200496.props" />
+</Project>

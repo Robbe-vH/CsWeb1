@@ -1,0 +1,43 @@
+﻿@model PXLHotel_12200496.Models.HotelRoom
+
+@{
+    ViewData["Title"] = "NewHotelRoom";
+}
+
+<h1>NewHotelRoom</h1>
+
+<h4>HotelRoom</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NewHotelRoom">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="HotelId" class="control-label"></label>
+                <input asp-for="HotelId" class="form-control" />
+                <span asp-validation-for="HotelId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HotelRoomName" class="control-label"></label>
+                <input asp-for="HotelRoomName" class="form-control" />
+                <span asp-validation-for="HotelRoomName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HotelRoomNumber" class="control-label"></label>
+                <input asp-for="HotelRoomNumber" class="form-control" />
+                <span asp-validation-for="HotelRoomNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

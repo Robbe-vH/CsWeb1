@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PXLHotel_12200496",
+    "\\PXLHotel_12200496\\PXLHotel_12200496",
+    "\\PXLHotel_12200496\\PXLHotel_12200496\\Controllers"
   ],
-  "SelectedNode": "\\WebAppMvcClientLocation.sln",
+  "SelectedNode": "\\PXLHotel_12200496\\PXLHotel_12200496\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }

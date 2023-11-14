@@ -1,0 +1,46 @@
+﻿@model List<HotelRoom>
+@using System.Linq
+
+@{
+    ViewData["Title"] = "PXL Hotel";
+    List<Hotel> hotels = ViewData["Hotels"] as List<Hotel>;
+}
+<div class="row">
+    <div id="links" class="col-md-9">
+        <a class="btn btn-danger m-2 p-2" asp-action="NewHotel">New Hotel</a>
+        <a class="btn btn-danger m-2 p-2" asp-action="NewHotelRoom">New HotelRoom</a>
+
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Hotel</th>
+                        <th scope="col">HotelRoomName</th>
+                        <th scope="col">HotelRoomNumber</th>
+                    </tr>
+                </thead>
+                <tbody>
+                @foreach (var hotelRoom in Model)
+                {
+                    <tr colspan="3">
+                        <td>@hotels.Where(h => h.HotelId == hotelRoom.HotelId).FirstOrDefault()?.HotelName</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>@hotelRoom.HotelRoomName</td>
+                        <td>@hotelRoom.HotelRoomNumber</td>
+                    </tr>
+                }
+
+                </tbody>
+            </table>
+
+    </div>
+
+    <div class="col-md-3" id="rechts">
+        <div class="bg-danger m-2 p-2">
+            <a class="text-light m-1">Hotel BE</a>
+            <a class="text-light m-1">Hotel NL</a>
+        </div>
+    </div>
+
+</div>

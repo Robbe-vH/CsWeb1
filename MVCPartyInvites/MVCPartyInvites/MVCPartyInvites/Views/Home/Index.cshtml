@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Gast>
+@{
+    ViewData["Title"] = "Home Page";
+    var aanwezigeGasten = Model.Where(x => x.Aanwezig == true);
+    var afwezigeGasten = Model.Where(x => x.Aanwezig == false || x.Aanwezig == null);
+}
+
+<div class="text-center">
+    <br />
+    <a asp-controller="Gast" asp-action="Index">Schrijf je hier in!</a>
+    <br />
+    <br />
+    @if (aanwezigeGasten.Count() > 0)
+    {       
+        <gast title="Aanwezige gasten" gasten="@aanwezigeGasten"></gast>
+        <br />
+    }
+    @if (afwezigeGasten.Count() > 0)
+    {
+        <gast title="Afwezige gasten" gasten="@afwezigeGasten"></gast>
+    }
+</div>

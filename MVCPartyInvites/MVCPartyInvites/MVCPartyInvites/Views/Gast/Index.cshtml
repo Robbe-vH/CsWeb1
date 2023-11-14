@@ -1,0 +1,31 @@
+﻿@model Gast
+@{
+    //new SelectListItem()
+    var lst = new List<SelectListItem>();
+    lst.Add(new SelectListItem { Text = "Null", Value = null });
+    lst.Add(new SelectListItem { Text = "Ja", Value = "true" });
+    lst.Add(new SelectListItem { Text = "Nee", Value = "false" });
+
+}
+<form asp-action="Reservatie" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class ="form-group">
+        <label asp-for="Naam" class="control-label"></label>
+        <input asp-for="Naam" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Email" class="control-label"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Telefoon" class="control-label"></label>
+        <input asp-for="Telefoon" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Aanwezig" class="control-label"></label>
+        <select asp-for="Aanwezig" asp-items="@lst" class="form-control">
+        </select>
+    </div>
+    <button type="submit">Inschrijven</button>
+</form>
